@@ -122,6 +122,7 @@ global.LibraryManager = {
             libraries.push('library_noderawfs.js');
           }
           libraries.push('library_koishifs.js');
+          libraries.push('library_nodepath.js');
         }
       }
     }
