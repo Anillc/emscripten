@@ -962,6 +962,8 @@ var FORCE_FILESYSTEM = false;
 // [link]
 var NODERAWFS = false;
 
+var KOISHIFS = false;
+
 // This saves the compiled wasm module in a file with name
 //   $WASM_BINARY_NAME.$V8_VERSION.cached
 // and loads it on subsequent runs. This caches the compiled wasm code from

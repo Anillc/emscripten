@@ -27,6 +27,9 @@ addToLibrary({
 #if LibraryManager.has('library_proxyfs.js')
     '$PROXYFS',
 #endif
+#if LibraryManager.has('library_koishifs.js')
+    '$KOISHIFS',
+#endif
 #if ASSERTIONS
     '$ERRNO_MESSAGES', '$ERRNO_CODES',
 #endif

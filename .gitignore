@@ -29,3 +29,5 @@ coverage.xml
 
 # Test output
 /out/
+
+result

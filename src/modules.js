@@ -113,6 +113,16 @@ global.LibraryManager = {
           // NODERAWFS overwrites library_path.js
           libraries.push('library_nodepath.js');
         }
+
+        if (KOISHIFS) {
+          if (!JS_LIBRARIES.includes('library_nodefs.js')) {
+            libraries.push('library_nodefs.js');
+          }
+          if (!JS_LIBRARIES.includes('library_noderawfs.js')) {
+            libraries.push('library_noderawfs.js');
+          }
+          libraries.push('library_koishifs.js');
+        }
       }
     }
 
